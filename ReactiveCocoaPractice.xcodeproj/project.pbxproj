@@ -13,6 +13,10 @@
 		B0E46F211BDB828300B1F2D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1B1BDB828300B1F2D8 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		B0E46F221BDB828300B1F2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1C1BDB828300B1F2D8 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		B0E46F231BDB828300B1F2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1D1BDB828300B1F2D8 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B0E46F261BDB85E400B1F2D8 /* DGBottomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46F251BDB85E400B1F2D8 /* DGBottomViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		B0E46F291BDB861900B1F2D8 /* DGRetweetedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46F281BDB861900B1F2D8 /* DGRetweetedViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		B0E46F2C1BDB862B00B1F2D8 /* DGUserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46F2B1BDB862B00B1F2D8 /* DGUserViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		B0E46F2F1BDB864C00B1F2D8 /* DGStatusCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46F2E1BDB864C00B1F2D8 /* DGStatusCellModel.m */; settings = {ASSET_TAGS = (); }; };
 		B0F4E7461BDB6E3500251BCE /* ReactiveCocoaPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7451BDB6E3500251BCE /* ReactiveCocoaPracticeTests.m */; };
 		B0F4E7611BDB723500251BCE /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7531BDB723500251BCE /* MJPhoto.m */; settings = {ASSET_TAGS = (); }; };
 		B0F4E7621BDB723500251BCE /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0F4E7541BDB723500251BCE /* MJPhotoBrowser.bundle */; settings = {ASSET_TAGS = (); }; };
@@ -75,6 +79,14 @@
 		B0E46F1B1BDB828300B1F2D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0E46F1C1BDB828300B1F2D8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0E46F1D1BDB828300B1F2D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B0E46F241BDB85E400B1F2D8 /* DGBottomViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGBottomViewModel.h; sourceTree = "<group>"; };
+		B0E46F251BDB85E400B1F2D8 /* DGBottomViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGBottomViewModel.m; sourceTree = "<group>"; };
+		B0E46F271BDB861900B1F2D8 /* DGRetweetedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGRetweetedViewModel.h; sourceTree = "<group>"; };
+		B0E46F281BDB861900B1F2D8 /* DGRetweetedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGRetweetedViewModel.m; sourceTree = "<group>"; };
+		B0E46F2A1BDB862B00B1F2D8 /* DGUserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGUserViewModel.h; sourceTree = "<group>"; };
+		B0E46F2B1BDB862B00B1F2D8 /* DGUserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGUserViewModel.m; sourceTree = "<group>"; };
+		B0E46F2D1BDB864C00B1F2D8 /* DGStatusCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGStatusCellModel.h; sourceTree = "<group>"; };
+		B0E46F2E1BDB864C00B1F2D8 /* DGStatusCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGStatusCellModel.m; sourceTree = "<group>"; };
 		B0F4E7281BDB6E3500251BCE /* ReactiveCocoaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F4E7411BDB6E3500251BCE /* ReactiveCocoaPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F4E7451BDB6E3500251BCE /* ReactiveCocoaPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaPracticeTests.m; sourceTree = "<group>"; };
@@ -459,6 +471,14 @@
 		B0F4E7AD1BDB73B900251BCE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B0E46F241BDB85E400B1F2D8 /* DGBottomViewModel.h */,
+				B0E46F251BDB85E400B1F2D8 /* DGBottomViewModel.m */,
+				B0E46F271BDB861900B1F2D8 /* DGRetweetedViewModel.h */,
+				B0E46F281BDB861900B1F2D8 /* DGRetweetedViewModel.m */,
+				B0E46F2A1BDB862B00B1F2D8 /* DGUserViewModel.h */,
+				B0E46F2B1BDB862B00B1F2D8 /* DGUserViewModel.m */,
+				B0E46F2D1BDB864C00B1F2D8 /* DGStatusCellModel.h */,
+				B0E46F2E1BDB864C00B1F2D8 /* DGStatusCellModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -621,14 +641,18 @@
 				B0F4E7721BDB72AF00251BCE /* UIImage+MJ.m in Sources */,
 				B0F4E7C21BDB740500251BCE /* NSLayoutAnchor+Priority.m in Sources */,
 				B0F4E7A71BDB736100251BCE /* DWHomeTool.m in Sources */,
+				B0E46F291BDB861900B1F2D8 /* DGRetweetedViewModel.m in Sources */,
 				B0F4E7631BDB723500251BCE /* MJPhotoBrowser.m in Sources */,
 				B0F4E7CE1BDB741D00251BCE /* DGUser.m in Sources */,
 				B0F4E7961BDB72F400251BCE /* IWAccount.m in Sources */,
 				B0F4E7BD1BDB73EA00251BCE /* DGBottomView.m in Sources */,
 				B0F4E7CC1BDB741D00251BCE /* DGPhoto.m in Sources */,
 				B0F4E7651BDB723500251BCE /* MJPhotoProgressView.m in Sources */,
+				B0E46F261BDB85E400B1F2D8 /* DGBottomViewModel.m in Sources */,
+				B0E46F2F1BDB864C00B1F2D8 /* DGStatusCellModel.m in Sources */,
 				B0F4E7991BDB72F400251BCE /* IWWeiboTool.m in Sources */,
 				B0F4E7A81BDB736100251BCE /* SXQHttpTool.m in Sources */,
+				B0E46F2C1BDB862B00B1F2D8 /* DGUserViewModel.m in Sources */,
 				B0F4E7CB1BDB741D00251BCE /* DGGeography.m in Sources */,
 				B0E46F1F1BDB828300B1F2D8 /* main.m in Sources */,
 				B0F4E7D11BDB743F00251BCE /* DWHomeViewController.m in Sources */,
@@ -790,6 +814,7 @@
 		};
 		B0F4E74E1BDB6E3500251BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCA1A381FBCE32AA2C17B3C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ReactiveCocoaPracticeTests/Info.plist;
@@ -802,6 +827,7 @@
 		};
 		B0F4E74F1BDB6E3500251BCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCA1A381FBCE32AA2C17B3C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ReactiveCocoaPracticeTests/Info.plist;
