@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0F4E72D1BDB6E3500251BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E72C1BDB6E3500251BCE /* main.m */; };
-		B0F4E7301BDB6E3500251BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E72F1BDB6E3500251BCE /* AppDelegate.m */; };
-		B0F4E7331BDB6E3500251BCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7321BDB6E3500251BCE /* ViewController.m */; };
-		B0F4E7381BDB6E3500251BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F4E7371BDB6E3500251BCE /* Assets.xcassets */; };
-		B0F4E73B1BDB6E3500251BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F4E7391BDB6E3500251BCE /* LaunchScreen.storyboard */; };
+		B0E46F1E1BDB828300B1F2D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46F171BDB828300B1F2D8 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		B0E46F1F1BDB828300B1F2D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46F181BDB828300B1F2D8 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		B0E46F201BDB828300B1F2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1A1BDB828300B1F2D8 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		B0E46F211BDB828300B1F2D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1B1BDB828300B1F2D8 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		B0E46F221BDB828300B1F2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1C1BDB828300B1F2D8 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B0E46F231BDB828300B1F2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E46F1D1BDB828300B1F2D8 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		B0F4E7461BDB6E3500251BCE /* ReactiveCocoaPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7451BDB6E3500251BCE /* ReactiveCocoaPracticeTests.m */; };
 		B0F4E7611BDB723500251BCE /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7531BDB723500251BCE /* MJPhoto.m */; settings = {ASSET_TAGS = (); }; };
 		B0F4E7621BDB723500251BCE /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0F4E7541BDB723500251BCE /* MJPhotoBrowser.bundle */; settings = {ASSET_TAGS = (); }; };
@@ -51,7 +52,6 @@
 		B0F4E7CD1BDB741D00251BCE /* DGStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7C81BDB741D00251BCE /* DGStatus.m */; settings = {ASSET_TAGS = (); }; };
 		B0F4E7CE1BDB741D00251BCE /* DGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7CA1BDB741D00251BCE /* DGUser.m */; settings = {ASSET_TAGS = (); }; };
 		B0F4E7D11BDB743F00251BCE /* DWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4E7D01BDB743F00251BCE /* DWHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		B0F4E7D31BDB78A800251BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F4E7D21BDB78A800251BCE /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		C4236B4B6591B4B2BE989A46 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F94ABCDDBCC3D7350E3A70 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,15 +68,14 @@
 /* Begin PBXFileReference section */
 		94D1480B0922A4542B66865A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A2F94ABCDDBCC3D7350E3A70 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E46F161BDB828300B1F2D8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0E46F171BDB828300B1F2D8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0E46F181BDB828300B1F2D8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E46F1A1BDB828300B1F2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0E46F1B1BDB828300B1F2D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E46F1C1BDB828300B1F2D8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0E46F1D1BDB828300B1F2D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B0F4E7281BDB6E3500251BCE /* ReactiveCocoaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0F4E72C1BDB6E3500251BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0F4E72E1BDB6E3500251BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B0F4E72F1BDB6E3500251BCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0F4E7311BDB6E3500251BCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0F4E7321BDB6E3500251BCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0F4E7371BDB6E3500251BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0F4E73A1BDB6E3500251BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B0F4E73C1BDB6E3500251BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0F4E7411BDB6E3500251BCE /* ReactiveCocoaPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoaPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F4E7451BDB6E3500251BCE /* ReactiveCocoaPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaPracticeTests.m; sourceTree = "<group>"; };
 		B0F4E7471BDB6E3500251BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -155,7 +154,6 @@
 		B0F4E7CA1BDB741D00251BCE /* DGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGUser.m; sourceTree = "<group>"; };
 		B0F4E7CF1BDB743F00251BCE /* DWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWHomeViewController.h; sourceTree = "<group>"; };
 		B0F4E7D01BDB743F00251BCE /* DWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWHomeViewController.m; sourceTree = "<group>"; };
-		B0F4E7D21BDB78A800251BCE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DBCA1A381FBCE32AA2C17B3C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,12 +193,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B0E46F151BDB828300B1F2D8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B0E46F161BDB828300B1F2D8 /* AppDelegate.h */,
+				B0E46F171BDB828300B1F2D8 /* AppDelegate.m */,
+				B0E46F181BDB828300B1F2D8 /* main.m */,
+				B0E46F191BDB828300B1F2D8 /* Resources */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B0E46F191BDB828300B1F2D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0E46F1A1BDB828300B1F2D8 /* Assets.xcassets */,
+				B0E46F1B1BDB828300B1F2D8 /* Info.plist */,
+				B0E46F1C1BDB828300B1F2D8 /* LaunchScreen.storyboard */,
+				B0E46F1D1BDB828300B1F2D8 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B0F4E71F1BDB6E3500251BCE = {
 			isa = PBXGroup;
 			children = (
-				B0F4E79A1BDB733F00251BCE /* Common(通用) */,
-				B0F4E7731BDB72E700251BCE /* Main */,
-				B0F4E7501BDB721900251BCE /* Vender(第三方) */,
 				B0F4E72A1BDB6E3500251BCE /* ReactiveCocoaPractice */,
 				B0F4E7441BDB6E3500251BCE /* ReactiveCocoaPracticeTests */,
 				B0F4E7291BDB6E3500251BCE /* Products */,
@@ -221,25 +238,11 @@
 		B0F4E72A1BDB6E3500251BCE /* ReactiveCocoaPractice */ = {
 			isa = PBXGroup;
 			children = (
-				B0F4E72E1BDB6E3500251BCE /* AppDelegate.h */,
-				B0F4E72F1BDB6E3500251BCE /* AppDelegate.m */,
-				B0F4E7311BDB6E3500251BCE /* ViewController.h */,
-				B0F4E7321BDB6E3500251BCE /* ViewController.m */,
-				B0F4E7371BDB6E3500251BCE /* Assets.xcassets */,
-				B0F4E7391BDB6E3500251BCE /* LaunchScreen.storyboard */,
-				B0F4E7D21BDB78A800251BCE /* Main.storyboard */,
-				B0F4E73C1BDB6E3500251BCE /* Info.plist */,
-				B0F4E72B1BDB6E3500251BCE /* Supporting Files */,
+				B0E46F151BDB828300B1F2D8 /* Other */,
+				B0F4E7731BDB72E700251BCE /* Main */,
+				B0F4E7501BDB721900251BCE /* Vender(第三方) */,
 			);
 			path = ReactiveCocoaPractice;
-			sourceTree = "<group>";
-		};
-		B0F4E72B1BDB6E3500251BCE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B0F4E72C1BDB6E3500251BCE /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B0F4E7441BDB6E3500251BCE /* ReactiveCocoaPracticeTests */ = {
@@ -257,8 +260,7 @@
 				B0F4E7691BDB72AF00251BCE /* Category */,
 				B0F4E7511BDB723500251BCE /* MJPhotoBrowser */,
 			);
-			name = "Vender(第三方)";
-			path = "ReactiveCocoaPractice/Vender(第三方)";
+			path = "Vender(第三方)";
 			sourceTree = "<group>";
 		};
 		B0F4E7511BDB723500251BCE /* MJPhotoBrowser */ = {
@@ -301,11 +303,11 @@
 		B0F4E7731BDB72E700251BCE /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B0F4E79A1BDB733F00251BCE /* Common(通用) */,
 				B0F4E7A91BDB738700251BCE /* Home(首页) */,
 				B0F4E7741BDB72F400251BCE /* OAuth(授权) */,
 			);
-			name = Main;
-			path = ReactiveCocoaPractice/Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		B0F4E7741BDB72F400251BCE /* OAuth(授权) */ = {
@@ -375,8 +377,7 @@
 				B0F4E79F1BDB736100251BCE /* Network */,
 				B0F4E79B1BDB734D00251BCE /* HomeData */,
 			);
-			name = "Common(通用)";
-			path = "ReactiveCocoaPractice/Main/Common(通用)";
+			path = "Common(通用)";
 			sourceTree = "<group>";
 		};
 		B0F4E79B1BDB734D00251BCE /* HomeData */ = {
@@ -546,10 +547,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F4E73B1BDB6E3500251BCE /* LaunchScreen.storyboard in Resources */,
-				B0F4E7381BDB6E3500251BCE /* Assets.xcassets in Resources */,
+				B0E46F201BDB828300B1F2D8 /* Assets.xcassets in Resources */,
+				B0E46F231BDB828300B1F2D8 /* Main.storyboard in Resources */,
+				B0E46F221BDB828300B1F2D8 /* LaunchScreen.storyboard in Resources */,
 				B0F4E7621BDB723500251BCE /* MJPhotoBrowser.bundle in Resources */,
-				B0F4E7D31BDB78A800251BCE /* Main.storyboard in Resources */,
+				B0E46F211BDB828300B1F2D8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E46F1E1BDB828300B1F2D8 /* AppDelegate.m in Sources */,
 				B0F4E7721BDB72AF00251BCE /* UIImage+MJ.m in Sources */,
 				B0F4E7C21BDB740500251BCE /* NSLayoutAnchor+Priority.m in Sources */,
 				B0F4E7A71BDB736100251BCE /* DWHomeTool.m in Sources */,
@@ -627,6 +630,7 @@
 				B0F4E7991BDB72F400251BCE /* IWWeiboTool.m in Sources */,
 				B0F4E7A81BDB736100251BCE /* SXQHttpTool.m in Sources */,
 				B0F4E7CB1BDB741D00251BCE /* DGGeography.m in Sources */,
+				B0E46F1F1BDB828300B1F2D8 /* main.m in Sources */,
 				B0F4E7D11BDB743F00251BCE /* DWHomeViewController.m in Sources */,
 				B0F4E7681BDB723500251BCE /* SDWebImageManager+MJ.m in Sources */,
 				B0F4E7901BDB72F400251BCE /* NSDate+MJ.m in Sources */,
@@ -636,14 +640,11 @@
 				B0F4E7641BDB723500251BCE /* MJPhotoLoadingView.m in Sources */,
 				B0F4E7A61BDB736100251BCE /* DWBaseParam.m in Sources */,
 				B0F4E7921BDB72F400251BCE /* UIImage+MJ.m in Sources */,
-				B0F4E7331BDB6E3500251BCE /* ViewController.m in Sources */,
 				B0F4E7611BDB723500251BCE /* MJPhoto.m in Sources */,
-				B0F4E7301BDB6E3500251BCE /* AppDelegate.m in Sources */,
 				B0F4E7981BDB72F400251BCE /* IWHttpTool.m in Sources */,
 				B0F4E79E1BDB734D00251BCE /* DWHomeData.m in Sources */,
 				B0F4E7BA1BDB73EA00251BCE /* DGUserView.m in Sources */,
 				B0F4E7931BDB72F400251BCE /* IWOAuthViewController.m in Sources */,
-				B0F4E72D1BDB6E3500251BCE /* main.m in Sources */,
 				B0F4E7BC1BDB73EA00251BCE /* DGStatusCell.m in Sources */,
 				B0F4E7951BDB72F400251BCE /* IWAccessTokenResult.m in Sources */,
 				B0F4E7671BDB723500251BCE /* MJPhotoView.m in Sources */,
@@ -675,17 +676,6 @@
 			targetProxy = B0F4E7421BDB6E3500251BCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B0F4E7391BDB6E3500251BCE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0F4E73A1BDB6E3500251BCE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B0F4E7481BDB6E3500251BCE /* Debug */ = {
@@ -778,7 +768,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (W5X736XVC4)";
-				INFOPLIST_FILE = ReactiveCocoaPractice/Info.plist;
+				INFOPLIST_FILE = ReactiveCocoaPractice/Other/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.ReactiveCocoaPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -791,7 +781,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (W5X736XVC4)";
-				INFOPLIST_FILE = ReactiveCocoaPractice/Info.plist;
+				INFOPLIST_FILE = ReactiveCocoaPractice/Other/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.ReactiveCocoaPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
