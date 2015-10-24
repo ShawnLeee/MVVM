@@ -8,6 +8,7 @@
 
 #import "DGBottomView.h"
 #import "DGStatus.h"
+#import "NSLayoutAnchor+Priority.h"
 @interface DGBottomView ()
 @property (nonatomic,weak) UIButton *retweetBtn;
 @property (nonatomic,weak) UIButton *commentBtn;
@@ -78,15 +79,18 @@
 
 - (void)setupCustomViwesConstraints
 {
+    CGFloat padding = 60;
+    CGFloat bottomPadding = 4;
     //赞
-    [self addConstraint:[NSLayoutConstraint constraintWithItem:self.likeBtn attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterX multiplier:1.5 constant:0]];
-    [self addConstraint:[NSLayoutConstraint constraintWithItem:self.likeBtn attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.5]];
+    [self addConstraint:[self.likeBtn.trailingAnchor constraintEqualToAnchor:self.trailingAnchor constant:-padding]];
+    [self addConstraint:[self.likeBtn.bottomAnchor constraintEqualToAnchor:self.bottomAnchor constant:-bottomPadding]];
     //转发
-    [self addConstraint:[NSLayoutConstraint constraintWithItem:self.retweetBtn attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterX multiplier:0.5 constant:0]];
-    [self addConstraint:[NSLayoutConstraint constraintWithItem:self.retweetBtn attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0]];
+    [self addConstraint:[self.retweetBtn.leadingAnchor constraintEqualToAnchor:self.leadingAnchor constant:padding]];
+    [self addConstraint:[self.retweetBtn.bottomAnchor constraintEqualToAnchor:self.likeBtn.bottomAnchor]];
     //评论
-    [self addConstraint:[self.commentBtn.centerXAnchor constraintEqualToAnchor:self.centerXAnchor constant:0]];
-    [self addConstraint:[self.commentBtn.bottomAnchor constraintEqualToAnchor:self.bottomAnchor constant:0]];
+    [self addConstraint:[self.commentBtn.centerXAnchor constraintEqualToAnchor:self.centerXAnchor]];
+    [self addConstraint:[self.commentBtn.bottomAnchor constraintEqualToAnchor:self.likeBtn.bottomAnchor]];
+    
     
 }
 @end

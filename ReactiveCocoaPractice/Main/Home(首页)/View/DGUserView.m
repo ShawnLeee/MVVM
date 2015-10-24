@@ -71,7 +71,7 @@
     UILabel *userLabel = [[UILabel alloc] init];
     userLabel.translatesAutoresizingMaskIntoConstraints = NO;
     userLabel.font = [UIFont systemFontOfSize:15];
-    userLabel.textColor = [UIColor orangeColor];
+    userLabel.textColor = [UIColor colorWithRed:0.96 green:0.48 blue:0.03 alpha:1.0];
     userLabel.backgroundColor = [UIColor clearColor];
     _userLabel = userLabel;
     [self addSubview:userLabel];
